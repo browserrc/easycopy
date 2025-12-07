@@ -30,7 +30,7 @@
 
     "@types/node": ["@types/node@24.10.1", "", { "dependencies": { "undici-types": "~7.16.0" } }, "sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ=="],
 
-    "browserrc": ["browserrc@github:browserrc/browserrc#9ca9c33", { "dependencies": { "@kitajs/html": "^4.2.11", "handlebars": "^4.7.8" } }, "browserrc-browserrc-9ca9c33"],
+    "browserrc": ["browserrc@github:browserrc/browserrc#a2bef5a", { "dependencies": { "@kitajs/html": "^4.2.11", "handlebars": "^4.7.8" } }, "browserrc-browserrc-a2bef5a"],
 
     "bun-types": ["bun-types@1.3.3", "", { "dependencies": { "@types/node": "*" } }, "sha512-z3Xwlg7j2l9JY27x5Qn3Wlyos8YAp0kKRlrePAOjgjMGS5IG6E7Jnlx736vH9UVI4wUICwwhC9anYL++XeOgTQ=="],
 

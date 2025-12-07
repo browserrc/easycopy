@@ -5,8 +5,6 @@ A browser extension that makes copying links easy. When you click the extension 
 ## Features
 
 - **One-click copying**: Click the extension icon to copy the current page as a markdown link
-- **Cross-browser support**: Works on Chrome and Firefox
-- **Offscreen copying**: Uses modern browser APIs for secure clipboard access
 
 ## Development
 
@@ -24,7 +22,7 @@ bun install
 
 ### Building
 
-Build the extension for both Chrome and Firefox:
+Build the extension for Chrome:
 
 ```bash
 bun run index.tsx
@@ -43,10 +41,6 @@ The project uses [browserrc](https://github.com/browserrc/browserrc) for buildin
 2. Enable "Developer mode" in the top right
 3. Click "Load unpacked" and select the `dist/chrome/` directory
 
-### Firefox
-1. Open Firefox and go to `about:debugging#/runtime/this-firefox`
-2. Click "Load Temporary Add-on"
-3. Select the `manifest.json` file in the `dist/firefox/` directory
 
 ## Usage
 

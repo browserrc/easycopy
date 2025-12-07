@@ -46,8 +46,7 @@ code('offscreen.js', () => {
 
 build({
     platforms: {
-        chrome: true,
-        firefox: true
+        chrome: true
     },
     outputDir: "dist"
 })
