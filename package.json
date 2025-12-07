@@ -1,0 +1,16 @@
+{
+  "name": "easycopy",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/chrome": "^0.1.32"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "browserrc": "github:browserrc/browserrc"
+  }
+}
